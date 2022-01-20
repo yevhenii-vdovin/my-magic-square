@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+.table {
+  height: 100%;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table,
+.cell {
+  border: 0.5px solid;
+}
+
+.cell {
+  height: 33.33%;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
